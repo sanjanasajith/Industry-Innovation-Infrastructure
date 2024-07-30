@@ -98,10 +98,10 @@ form button {
   p{ 
     text-align: justify;
   }
-  .hero{
+  /* .hero{
     grid-column:1 / -1;
     position:relative;
-  }
+  } */
   img{
     width:100%;
     object-fit:cover;
@@ -111,12 +111,12 @@ form button {
   .sub{
     color:rgba(141, 21, 21, 0.5);
  }
-  .heading{
+  /* .heading{
     grid-column: 2/ 3;
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     row-gap:1.5rem;
-  }
+  } */
   .text {
     grid-column: 2 / 3;
     font-size:1.8rem;
@@ -657,10 +657,10 @@ body {
         font-size:1rem;
       }
       .logo {
-      position: relative;
-      left: -83px;
-      height:120px;
-      width:120px;} 
+        width: 72px;
+        height: auto;
+        padding-bottom: 0;
+      }  
       .image-wrapper {
         grid-template-columns: 1fr;
       }
