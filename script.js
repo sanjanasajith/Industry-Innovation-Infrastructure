@@ -6,3 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         form.reset();
     });
 });
+var navbar = document.getElementById('top-navbar');
+var navbarToggler = document.querySelector('.navbar-toggler');
+navbarToggler.addEventListener('click', function () {
+  navbar.classList.toggle('show');
+});
